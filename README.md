@@ -51,6 +51,25 @@ The analysis generates a summary table that lists the top features and their coe
 | FG%     | -0.136064   |
 These coefficients indicate the magnitude and direction of the impact each feature has on predicting MVP vote shares.
 
+### Example from the 2021 Season:
+
+| Player                | Share | pred      | Predicted_Rk | Rk  | Diff |
+|-----------------------|-------|-----------|--------------|-----|------|
+| Nikola Jokić          | 0.961 | 0.154064  | 3            | 1   | -2   |
+| Joel Embiid           | 0.580 | 0.163082  | 2            | 2   | 0    |
+| Stephen Curry         | 0.449 | 0.147108  | 6            | 3   | -3   |
+| Giannis Antetokounmpo | 0.345 | 0.206490  | 1            | 4   | 3    |
+| Chris Paul            | 0.138 | 0.073669  | 33           | 5   | -28  |
+| ...                   | ...   | ...       | ...          | ... | ...  |
+| Precious Achiuwa      | 0.000 | 0.007068  | 184          | 536 | 352  |
+| De'Anthony Melton     | 0.000 | 0.007122  | 183          | 537 | 354  |
+| Lou Williams          | 0.000 | 0.007149  | 182          | 538 | 356  |
+| Abdel Nader           | 0.000 | 0.007214  | 181          | 539 | 358  |
+| Didi Louzada          | 0.000 | -0.067790 | 540          | 540 | 0    |
+
+
+
+
 ## Historical Importance:
 Historically, MVP voting in the NBA has heavily favored players with outstanding performance across multiple statistical categories, including scoring efficiency (eFG%), defensive contributions (DRB, BLK), team success metrics (W/L%), and individual skill proficiency (PTS, AST). Understanding these historical trends helps refine the predictive models and improve accuracy over time.
 
